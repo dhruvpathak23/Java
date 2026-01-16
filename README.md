@@ -1,146 +1,213 @@
-# Java
-This repository documents my systematic practice of recursion in Java, starting from fundamentals and gradually moving toward more complex recursive patterns like subsets and string manipulation.
+# Java Recursion, Backtracking & Dynamic Programming
 
-The goal of this repo is not just solving problems, but building a clear mental model of recursion — base cases, recursive calls, stack behavior, and problem decomposition.
+This repository contains my structured practice of recursion in Java, progressing from fundamental recursive problems to advanced backtracking and dynamic programming techniques.
 
-📌 What This Repository Covers
+The codebase is organized using standard Java package conventions, with clear naming and logical separation of concepts to reflect real-world project structure.
 
-The problems are organized by concept to reflect a learning progression, not random practice.
+📁 Project Structure
 
-🔹 Level 01 – Recursion Basics
+The repository follows a clean, scalable layout:
 
-Foundational problems to understand how recursion works internally.
+src/
+├── recursion/
+│   ├── level 01/
+│   ├── arrays/
+│   ├── strings/
+│   ├── patterns/
+│   ├── subsets/
+│   └── permutations/
+│
+├── backtracking/
+│   ├── maze/
+│   ├── nqueens/
+│   ├── nknights/
+│   └── sudoku/
+│
+├── dynamicprogramming/
+│   ├── memoization/
+│   └── tabulation/
+
+
+Each folder represents a single core concept, and every file contains one public class with descriptive naming.
+
+🔹 Recursion level 01
+
+Covers foundational recursion problems to build strong intuition.
+
+Examples:
 
 Factorial
 
 Fibonacci
 
-Sum of digits
+Digit count & sum
 
-Count digits
+Reverse number & string
 
-Reverse number
+Palindrome checks
 
-Palindrome (number & string)
-
-Count steps
+Count steps to zero
 
 Focus:
-Base case identification, recursive flow, stack unwinding.
 
-🔹 Arrays with Recursion
+Base case identification
 
-Applying recursion beyond numbers.
+Recursive call flow
+
+Stack unwinding
+
+🔹 Arrays & Strings Using Recursion
+
+Applying recursion to linear data structures.
+
+Arrays
 
 Linear search
 
 Check if array is sorted
 
-Bubble sort (recursive)
+Recursive bubble sort
 
-Selection sort (recursive)
+Recursive selection sort
 
-Focus:
-Index-based recursion, shrinking problem size.
+Strings
 
-🔹 Strings with Recursion
+Character removal
 
-Recursive manipulation of characters and substrings.
-
-Remove characters
-
-Remove words
+Substring removal
 
 Reverse string
 
-String palindrome
+Palindrome validation
 
 Focus:
-Substring recursion, immutability, character-level thinking.
 
-🔹 Subsets & Subsequences
+Index-based recursion
 
-Introduction to exponential recursion, a key interview topic.
+Shrinking problem size
 
-Generate subsequences
+String immutability
 
-Subsequences with ASCII values
+🔹 Patterns with Recursion
 
-Focus:
-Decision trees, include/exclude patterns, recursion branching.
-
-🔹 Patterns (Recursion + Visualization)
-
-Understanding recursion through pattern problems.
-
-Star patterns
-
-Sorting patterns
+Visual pattern problems implemented recursively.
 
 Focus:
-Recursive depth control and visual recursion.
 
-🧠 What I’m Practicing Conceptually
+Recursive depth control
 
-Across these problems, I focus on:
+Call stack visualization
+
+🔹 Subsets, Subsequences & Permutations
+
+Introduction to exponential recursion.
+
+Examples:
+
+Subsequences
+
+Subsequences with ASCII
+
+Permutations
+
+Focus:
+
+Include / exclude logic
+
+Decision trees
+
+Exponential complexity awareness
+
+🔹 Backtracking
+
+Classic constraint-based problems solved using recursion.
+
+Maze Problems
+
+Path counting
+
+Path printing
+
+Movement constraints
+
+Obstacle handling
+
+Constraint Satisfaction Problems
+
+N-Queens
+
+N-Knights
+
+Sudoku Solver
+
+Focus:
+
+State management
+
+Pruning invalid paths
+
+Backtracking (do → recurse → undo)
+
+🔹 Dynamic Programming (In Progress)
+
+Recursion optimized using DP techniques.
+
+Focus:
+
+Overlapping subproblems
+
+Memoization
+
+Transition to tabulation
+
+🧠 Concepts Emphasized Throughout
 
 Clear base cases
 
 Well-defined recursive transitions
 
-Avoiding unnecessary recursion
+Proper backtracking
 
-Understanding time & space complexity
+Time and space complexity awareness
 
-Thinking in terms of problem reduction
+Clean, readable Java code
 
-This repository represents deliberate practice, not copied solutions.
+Consistent naming & structure
 
-🛠️ How to Run the Code
+🛠️ How to Run
 
 Language: Java
 
-Each .java file is self-contained
+Each file is self-contained
 
-Run using:
+Compile & run:
 
 javac FileName.java
 java FileName
 
 
-(You can also run directly using any Java IDE.)
+Or run directly using any Java IDE.
 
-📈 Current Status & Next Steps
+🎯 Purpose of This Repository
 
-This repo currently covers beginner to early-intermediate recursion.
+This repository is meant to:
 
-Planned extensions:
-
-Backtracking problems (maze, permutations, N-Queens)
-
-Tree recursion (DFS, height, traversal)
-
-Recursion + memoization (DP foundation)
-
-Better documentation per problem
-
-🎯 Why This Repository Exists
-
-This repository exists to:
-
-Strengthen my DSA fundamentals
+Strengthen DSA fundamentals
 
 Build interview-ready recursion intuition
 
-Track my learning progress publicly
+Practice writing clean, explainable Java code
 
-Create clean, explainable Java solutions
+Track long-term learning progress
 
 📜 License
 
-This project is licensed under the MIT License — feel free to use it for learning.
+Licensed under the MIT License.
 
-✨ Final Note
+Final Note
 
-Recursion isn’t about memorizing patterns.
-It’s about trusting the function to do its job — one level at a time.
+Recursion teaches structure.
+Backtracking teaches discipline.
+Dynamic programming teaches optimization.
+
+This repository reflects all three — with intent.
