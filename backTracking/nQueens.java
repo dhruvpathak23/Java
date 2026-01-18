@@ -1,10 +1,11 @@
 package backTracking;
 // place n queens on n*n chessboard such that no knight can attack each other.
-//backtrack,till you find atleast one way to diplay n queens on n*n chessboard.
-//we will start from the (0,0) cell.
+// backtrack,till you find atleast one way to diplay n queens on n*n chessboard.
+// we will start from the (0,0) cell.
 // and, run all the recursion calls to get all the possible answer.
 // Recurrance Relation = T(N) = N*T(N-1)+ O(N^2) => O(N^3+N!) = O(N!), Akka Bagging formula.
-//O(N^2) for isSafe function, N*T(N-1) for n calls of T(N-1).
+// O(N^2) for isSafe function, N*T(N-1) for n calls of T(N-1).
+// you can eliminate the for loop, but then you need another variable int the argument,(board,row,col,target).
 public class nQueens{
     public static void main (String[]args){
         int n = 4;
