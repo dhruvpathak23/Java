@@ -9,9 +9,10 @@ public class nQueens{
     public static void main (String[]args){
         int n = 4;
         boolean [] [] board = new boolean[n][n];
+        
         //for printing the total no. of ways to place n queens on n*n chessboard.
        // System.out.println(queens(board,0));
-       //for printing all the ways to place n queens on n*n chessboard.
+       
          queens(board,0);
     }
     static int queens(boolean[][] board,int row){
