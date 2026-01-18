@@ -10,6 +10,7 @@ public class nKnights {
         int n = 4;
         boolean[][] board = new boolean [n] [n];
         knight(board,0,0,n);
+       
     }
     static void knight (boolean [][]board, int row, int col, int knights){
         //base case
