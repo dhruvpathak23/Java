@@ -1,4 +1,4 @@
-package backTracking;
+
 // place n knights on n*n chessboard such that no knight can attack each other.
 // backtrack,till you find atleast one way to diplay n knights on n*n chessboard.
 // we will start from the (0,0) cell.
@@ -69,9 +69,9 @@ public class nKnights {
         for(boolean[]row : board){
             for(boolean element : row){
                 if(element){
-                    System.out.println("K");
+                    System.out.print("K");
                 } else {
-                    System.out.println("X");
+                    System.out.print("X");
                 }
             }
             System.out.println();
