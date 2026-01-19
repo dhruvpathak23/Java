@@ -1,7 +1,4 @@
-// to write a program to solve a sudoku puzzle using backtracking
-// every digit in a 9x9 grid must be from 1 to 9 and,
-// do not repeat in any row, column or 3x3 subgrid.
-import java.util.*;
+
 public class sudokoSolver {
     public static void main (String[] args){
         int [][] board = new int[][]{
@@ -70,7 +67,7 @@ public class sudokoSolver {
     private static void display(int[][] board){
         for(int[] row : board){
              for(int digit : row){
-                System.out.print (digit + " ");
+                System.out.print(digit + " ");
             } 
             System.out.println();   
         }
