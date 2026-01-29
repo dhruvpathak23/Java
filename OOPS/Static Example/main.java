@@ -1,5 +1,4 @@
-//importing Human class into main class
-import oopslec2.staticExample.Human;
+
 public class main {
     public static void main (String[] args){
 
