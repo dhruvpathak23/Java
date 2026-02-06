@@ -56,7 +56,7 @@ Recursive call flow
 
 Stack unwinding
 
-#🔹 Arrays & Strings Using Recursion
+# 🔹 Arrays & Strings Using Recursion
 
 Applying recursion to linear data structures.
 
@@ -88,7 +88,7 @@ Shrinking problem size
 
 String immutability
 
-#🔹 Patterns with Recursion
+# 🔹 Patterns with Recursion
 
 Visual pattern problems implemented recursively.
 
@@ -98,7 +98,7 @@ Recursive depth control
 
 Call stack visualization
 
-#🔹 Subsets, Subsequences & Permutations
+# 🔹 Subsets, Subsequences & Permutations
 
 Introduction to exponential recursion.
 
@@ -118,7 +118,7 @@ Decision trees
 
 Exponential complexity awareness
 
-#🔹 Backtracking
+# 🔹 Backtracking
 
 Classic constraint-based problems solved using recursion.
 
@@ -148,7 +148,7 @@ Pruning invalid paths
 
 Backtracking (do → recurse → undo)
 
-#🔹 Dynamic Programming (In Progress)
+# 🔹 Dynamic Programming (In Progress)
 
 Recursion optimized using DP techniques.
 
