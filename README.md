@@ -4,7 +4,7 @@ This repository contains my structured practice of recursion in Java, progressin
 
 The codebase is organized using standard Java package conventions, with clear naming and logical separation of concepts to reflect real-world project structure.
 
-📁 Project Structure
+# 📁 Project Structure
 
 The repository follows a clean, scalable layout:
 
@@ -30,7 +30,7 @@ src/
 
 Each folder represents a single core concept, and every file contains one public class with descriptive naming.
 
-🔹 Recursion level 01
+# 🔹 Recursion level 01
 
 Covers foundational recursion problems to build strong intuition.
 
@@ -56,7 +56,7 @@ Recursive call flow
 
 Stack unwinding
 
-🔹 Arrays & Strings Using Recursion
+#🔹 Arrays & Strings Using Recursion
 
 Applying recursion to linear data structures.
 
@@ -88,7 +88,7 @@ Shrinking problem size
 
 String immutability
 
-🔹 Patterns with Recursion
+#🔹 Patterns with Recursion
 
 Visual pattern problems implemented recursively.
 
@@ -98,7 +98,7 @@ Recursive depth control
 
 Call stack visualization
 
-🔹 Subsets, Subsequences & Permutations
+#🔹 Subsets, Subsequences & Permutations
 
 Introduction to exponential recursion.
 
@@ -118,7 +118,7 @@ Decision trees
 
 Exponential complexity awareness
 
-🔹 Backtracking
+#🔹 Backtracking
 
 Classic constraint-based problems solved using recursion.
 
@@ -148,7 +148,7 @@ Pruning invalid paths
 
 Backtracking (do → recurse → undo)
 
-🔹 Dynamic Programming (In Progress)
+#🔹 Dynamic Programming (In Progress)
 
 Recursion optimized using DP techniques.
 
@@ -160,7 +160,7 @@ Memoization
 
 Transition to tabulation
 
-🧠 Concepts Emphasized Throughout
+# 🧠 Concepts Emphasized Throughout
 
 Clear base cases
 
@@ -174,7 +174,7 @@ Clean, readable Java code
 
 Consistent naming & structure
 
-🛠️ How to Run
+# 🛠️ How to Run
 
 Language: Java
 
@@ -188,7 +188,7 @@ java FileName
 
 Or run directly using any Java IDE.
 
-🎯 Purpose of This Repository
+# 🎯 Purpose of This Repository
 
 This repository is meant to:
 
@@ -200,7 +200,7 @@ Practice writing clean, explainable Java code
 
 Track long-term learning progress
 
-📜 License
+# 📜 License
 
 Licensed under the MIT License.
 
